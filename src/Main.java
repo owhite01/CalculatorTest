@@ -4,11 +4,16 @@
 public class Main {
     public static void main(String[] args) {
         BankAccount timsAccount = new BankAccount();
+        BankAccount olliesAccount = new BankAccount();
         StudentAccount myAccount = new StudentAccount();
 
         timsAccount.setAccountName("Tim");
         timsAccount.setAccountEmail("Tim@email.com");
         timsAccount.getBalance();
+
+        olliesAccount.setAccountName("Ollie");
+        olliesAccount.setAccountEmail("Ollie@email.com");
+        olliesAccount.getBalance();
 
         myAccount.setUniversity("Bath");
         myAccount.setAccountName("Ollie's Account");

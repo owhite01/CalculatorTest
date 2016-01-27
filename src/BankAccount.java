@@ -12,7 +12,8 @@ public class BankAccount {
 
     public void withdrawFunds(int withdrawal){
         if (this.balance>withdrawal){
-            System.out.println("Success!, " + withdrawal + " withdrawn");
+            System.out.println("Success!, " + withdrawal + " withdrawn from " +
+            this.accountName + "'s account");
             balance = this.balance - withdrawal;
         }else{
             System.out.println("Insufficient funds!");
@@ -26,15 +27,18 @@ public class BankAccount {
     }
 
     public void setAccountNumber(int accountNumber) {
+
         this.accountNumber = accountNumber;
     }
 
 
     public void setAccountEmail(String accountEmail) {
+
         this.accountEmail = accountEmail;
     }
 
     public void setAccountName(String accountName) {
+
         this.accountName = accountName;
     }
 

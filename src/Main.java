@@ -11,7 +11,6 @@ public class Main {
         timsAccount.setAccountEmail("Tim@email.com");
         timsAccount.getBalance();
 
-        //TEST
 
         olliesAccount.setAccountName("Ollie");
         olliesAccount.setAccountEmail("Ollie@email.com");

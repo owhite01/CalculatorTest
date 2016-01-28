@@ -58,4 +58,9 @@ public class BankAccount {
     public String getAccountEmail() {
         return accountEmail;
     }
+
+    public void changeName(String accountName){
+        this.accountName = accountName;
+    }
+
 }

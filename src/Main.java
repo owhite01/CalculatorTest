@@ -11,6 +11,8 @@ public class Main {
         timsAccount.setAccountEmail("Tim@email.com");
         timsAccount.getBalance();
 
+        //TEST
+
         olliesAccount.setAccountName("Ollie");
         olliesAccount.setAccountEmail("Ollie@email.com");
         olliesAccount.getBalance();
@@ -19,6 +21,8 @@ public class Main {
         myAccount.setAccountName("Ollie's Account");
         myAccount.setYearOfStudy(3);
         myAccount.depositFunds(5000);
+        myAccount.changeName("Oliver");
+        System.out.println(myAccount.getAccountName());
         System.out.println("Balance is " + myAccount.getBalance());
 
 

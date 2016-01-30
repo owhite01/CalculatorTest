@@ -15,6 +15,10 @@ public class Main {
         olliesAccount.setAccountName("Ollie");
         olliesAccount.setAccountEmail("Ollie@email.com");
         olliesAccount.getBalance();
+        String acc_name = olliesAccount.getAccountName();
+        System.out.println(acc_name);
+
+
 
         myAccount.setUniversity("Bath");
         myAccount.setAccountName("Ollie's Account");
